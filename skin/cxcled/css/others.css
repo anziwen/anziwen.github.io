@@ -1,0 +1,155 @@
+
+
+/* zoombox */
+
+.zoombox {
+
+	width:686px;
+
+	margin:20px auto 0 auto;
+
+}
+
+.zoompic {
+
+	border:solid 1px #dfdfdf; text-align:center;
+
+	width:358px;
+
+	height:358px;
+
+	background:url("../images/loading.gif")/*tpa=http://www.szrcled.com/skin/cxcled/images/loading.gif*/ no-repeat 50% 50%;
+
+}
+
+.sliderbox {
+
+	height:70px;
+
+	overflow:hidden;
+
+	margin:10px 0 0 0;
+
+}
+
+.sliderbox .arrow-btn {
+
+	width:20px;
+
+	height:70px;
+
+	cursor:pointer;
+
+}
+
+.sliderbox #btn-left {
+
+	float:left;
+
+	background:url("../images/qihuan-jtL.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qihuan-jtL.png*/ left no-repeat;
+
+}
+
+.sliderbox #btn-left.dasabled { background:url("../images/qihuan-jtL0.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qihuan-jtL0.png*/ no-repeat left;
+
+}
+
+.sliderbox #btn-right {
+
+	float:right;
+
+	background:url("../images/qihuan-jtR.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qihuan-jtR.png*/ no-repeat right;
+
+}
+
+.sliderbox #btn-right.dasabled {
+
+	background:url("../images/qihuan-jtR0.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qihuan-jtR0.png*/ no-repeat right;
+
+}
+
+.sliderbox .slider {
+
+	float:left;
+
+	height:70px;
+
+	width:320px;
+
+	position:relative;
+
+	overflow:hidden;
+
+	display:inline;
+
+}
+
+.sliderbox .slider ul {
+
+	position:absolute;
+
+	left:0;height:70px; overflow:hidden;
+
+	width:81000px;
+
+}
+
+.sliderbox .slider li {
+
+	float:left;
+
+	width:80px; text-align:left;
+
+	height:70px;
+
+	text-align:center;
+
+}
+
+.sliderbox .slider li img {
+
+	border:solid 1px #dfdfdf; width:72px;
+
+	height:68px;
+
+}
+
+.sliderbox .slider li.current img {
+
+	border:solid 1px #EC6A16;
+
+}
+
+.sliderbox .slider li img:hover{
+
+	border:solid 1px #EC6A16;
+
+}
+
+
+
+
+
+
+
+
+
+#TabTab03Con1, #TabTab03Con2, #TabTab03Con3, #TabTab03Con4, #TabTab03Con5 { clear:both; margin-top:15px; line-height:24px;}
+
+
+
+#bg{ height:27px; border-bottom:2px solid #0e91e8; width:656px;}
+
+.pro-button1{background:url("../images/qh-buttom1.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qh-buttom1.png*/ no-repeat top; line-height:27px; width:96px; float:left; margin-right:3px; text-align:center; font-weight:bold; height:27px;}
+
+.pro-button2{background:url("../images/qh-buttom2.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qh-buttom2.png*/ no-repeat top; color:#ffffff; height:27px; line-height:27px; height:32px; width:96px; float:left; margin-right:3px; text-align:center; font-weight:bold;}
+
+
+
+
+
+.sol-qh{ background-color:#0081e9; line-height:36px; height:36px; width:720px; font-size:13px;}
+
+.sol-button1{bline-height:36px; float:left;  margin-right:8px; padding-left:15px; padding-right:15px; text-align:center; height:36px; color:#fff}
+
+.sol-button2{background:url("../images/qihuan-sol.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/qihuan-sol.png*/ no-repeat bottom center #cf660b; color:#ffffff; line-height:36px; height:47px; float:left; margin-right:8px; padding-left:15px; padding-right:15px; text-align:center; font-weight:bold;}

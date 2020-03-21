@@ -1,0 +1,114 @@
+@charset "utf-8";
+.downmainmenu {
+    background: url("../images/nav_bg.png")/*tpa=http://www.szrcled.com/skin/cxcled/images/nav_bg.png*/ no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font: bold 14px "宋体";
+    height: 45px;
+    margin: 0 auto;
+    width: 992px;
+}
+.downmainmenu ul{
+z-index:100;
+margin: 0;
+padding: 0;
+position:absolute;
+list-style-type: none;
+text-align:center;
+
+}
+
+/*Top level list items*/
+.downmainmenu ul li{
+position: relative;
+display: inline;
+float: left;
+}
+
+/*Top level menu link items style*/
+.downmainmenu ul li a{
+display: block;
+color: white; 
+width:124px; 
+padding: 15px 0 0 0px;
+color: #FFFFFF;
+text-decoration: none; height:30px;
+}
+
+* html .downmainmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.downmainmenu ul li a:link, .downmainmenu ul li a:visited{
+}
+
+.downmainmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background: none repeat scroll 0 0 #ffffff;
+color:  #0081e9;
+}
+
+.downmainmenu ul li a:hover{
+background: none repeat scroll 0 0 #ffffff;
+color:#0081e9
+}
+	
+/*1st sub level menu*/
+.downmainmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden; 
+background:#fff; 
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.downmainmenu ul li ul li{
+display: list-item;
+line-height:40px; 
+float: none;border-bottom:1px dotted #ccc; margin:0px; padding:0px; 
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.downmainmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.downmainmenu ul li ul li a{
+font: bold 12px "微软雅黑";
+width: 140px; /*width of sub menus*/
+height:40px;
+background:#FFFFFF;background:url("../images/right.gif")/*tpa=http://www.szrcled.com/skin/cxcled/images/right.gif*/ no-repeat 10px;
+line-height:40px;
+color:#666; padding:0px; margin:0px;
+padding-left:28px; border:none;
+text-align:left;
+}
+.downmainmenu ul li ul li a:hover{background:url("../images/right.gif")/*tpa=http://www.szrcled.com/skin/cxcled/images/right.gif*/ no-repeat 10px; color:#0168b3}
+
+/* Holly Hack for IE \*/
+* html .downmainmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.rightarrowclass{
+position: absolute;
+top: 15px;
+left: 30px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+z-index:100;
+overflow:visible;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.8;
+}
